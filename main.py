@@ -15,7 +15,7 @@ def menu():
         print("4. Ver Equipos Por Cliente")
         print("5. Salir")
         print("-" * 30)
-        opc = input("Ingrese una opcion valida: ")
+        opc = int(input("Ingrese una opcion valida: "))
         
         if opc == 1:
             os.system("cls")
@@ -44,6 +44,7 @@ def menu():
             os.system("cls")
             print("Gracias por usar el programa!!")
             input("Presione Enter para Continuar!!")
+            os.system("cls")
             break
         else:
             print("Ingrese una opcion valida!!")
