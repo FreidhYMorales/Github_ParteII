@@ -32,4 +32,4 @@ class Equipo:
         self.__descripcion = value
 
     def __str__(self):
-        return f"Numero de Parte: {self._numero_parte} \nTipo de Equipo: {self._tipo} \nDescripcion: {self._descripcion}\n"
+        return f"Numero de Parte: {self._numero_parte} \nTipo de Equipo : {self._tipo} \nDescripcion    : {self._descripcion}\n{"-" * 30}"

@@ -6,6 +6,7 @@ class Cliente:
         self.__nombre = nombre
         self.__telefono = telefono
         self.__equipo = list() #[]
+        print("-" * 30)
         print("Cliente Creado Exitosamente!!")
 
     @property
@@ -55,4 +56,4 @@ class Cliente:
             print(i)
         
     def __str__(self):
-        return f"Nombre: {self._nombre} \nApellido: {self._apellido} \nTelefono: {self._telefono}"
+        return f"Nombre  : {self._nombre} \nApellido: {self._apellido} \nTelefono: {self._telefono} \n{"-" * 30}"

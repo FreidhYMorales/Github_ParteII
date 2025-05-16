@@ -19,15 +19,15 @@ def menu():
         
         if opc == 1:
             os.system("cls")
-            nombre = input("Ingrese el nombre del cliente: ")
+            nombre = input("Ingrese el nombre del cliente  : ")
             apellido = input("Ingrese el apellido del cliente: ")
             telefono =input("Ingrese el telefono del cliente: ")
             cliente.AgregarCliente(apellido, nombre, telefono)
-            input("Presione Enter para Continuar!!")
+            input()
         elif opc == 2:
             os.system("cls")
             print(cliente)
-            input("Presione Enter para Continuar!!")
+            input()
         elif opc == 3:
             os.system("cls")
             equipo = Equipo()
@@ -39,11 +39,11 @@ def menu():
         elif opc == 4:
             os.system("cls")
             cliente.MostrarEquipos()
-            input("Presione Enter para Continuar!!")
+            input()
         elif opc == 5:
             os.system("cls")
             print("Gracias por usar el programa!!")
-            input("Presione Enter para Continuar!!")
+            input()
             os.system("cls")
             break
         else:
